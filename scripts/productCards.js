@@ -2,7 +2,7 @@
 // Crea carta de prodcuto
 function createCard(product) {
     return `
-    <a class="product-card" href="./details.html">
+    <a class="product-card" href="./details.html?id=${product.id}">
         <img
             class="product-img"
             src="${product.img[0]}"
