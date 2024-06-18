@@ -1,6 +1,5 @@
 
 // Barra de navegación
-
 const navSelector = document.getElementById("nav")
 const options = [
         { title: "Cómo comprar", linkTo: "https://www.youtube.com/", opts: ["Formas de pago", "Envios"] },
